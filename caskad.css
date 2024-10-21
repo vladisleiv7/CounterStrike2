@@ -119,11 +119,15 @@ nav ul li a:hover {
     color: #fff; 
 }
 
-.answers h4:target {
+.highlight {
     background-color: yellow; 
-    transition: background-color 1.5s ease; 
+    transition: background-color 1s ease-in-out; 
 }
-
+.answers h4 {
+    margin-top: 30px;
+    font-size: 18px; 
+    font-weight: bold; 
+}
 .voprosi {
     margin-bottom: 30px;
 }
@@ -148,11 +152,7 @@ nav ul li a:hover {
     color: #004a99;
 }
 
-.answers h4 {
-    margin-top: 30px;
-    font-size: 18px; 
-    font-weight: bold; 
-}
+
 
 .answers p {
     font-size: 16px;
